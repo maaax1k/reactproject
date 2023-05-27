@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #2f2f2f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pic{
+    width: 30%;
+}
+
+.table{
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: gray;
+}
+
+.table-cell{
+    padding: 20px;
+}
+
+.BIG{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: mediumslateblue !important;
+}
+
+.footer-content{
+    width: 80%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+}
+
+.socials a{
+    content: "ASS";
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.footer{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vk{
+    background-size: 100% !important;
+    background: url("../image/vk.png") no-repeat center;
+}
+
+.inst{
+    background-size: 100% !important;
+    background: url("../image/inst.png") no-repeat center;
+}
+
+.wpp{
+    background-size: 100% !important;
+    background: url("../image/wpp.png") no-repeat center;
+}
